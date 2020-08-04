@@ -1,0 +1,49 @@
+.ContactView{
+    padding: 15px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ContactView h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.ContactView h3{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.ContactView p{
+    font-size: 1.5rem;
+}
+
+.ContactView-top{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ContactView-editbtn{
+    align-self: flex-end;
+    margin-right: 5%;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid var(--color-primary);
+}
+
+.ContactView-rmbtn{
+    align-self: flex-end;
+    margin-right: 5px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background-color: red;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid var(--color-primary);
+}

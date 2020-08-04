@@ -1,0 +1,27 @@
+.App {
+    min-width: 1200px;
+    height: 100vh;
+    background-color: var(--color-secondary-light);
+    position: relative;
+    z-index: 1;
+}
+
+.App::before {
+    content: "";
+    background: url("./background.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.App-container{
+    min-width: 900px;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}

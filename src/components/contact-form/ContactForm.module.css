@@ -1,0 +1,59 @@
+.Form{
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form h2{
+    margin:0 0 15px 5%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.Form input{
+    display: block;
+    margin: 0 auto 15px;
+    width: 90%;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 5px;
+}
+
+.Form input:focus{
+    outline-color: var(--color-primary-dark);
+}
+
+.Form textarea{
+    display: block;
+    height: 150px;
+    margin: 0 auto 15px;
+    width: 90%;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 3px 5px;
+    resize: none;
+}
+
+.Form button{
+    align-self: flex-end;
+    margin-right: 5%;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid var(--color-primary);
+}
+
+.Form button:hover{
+    background-color: var(--color-primary-dark);
+    cursor: pointer;
+}
+
+

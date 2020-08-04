@@ -1,0 +1,29 @@
+.ContactList{
+    flex-basis: 40%;
+    overflow-y: scroll;
+}
+
+.ContactList li {
+    padding: 15px;
+    border-bottom: 1px solid #ffffff;
+    background-color: var(--color-secondary-light);
+}
+
+.ContactList li h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ContactList li h4{
+    font-size: 1.2rem;
+}
+
+.ContactList li:hover{
+    background-color: var(--color-primary-dark);
+}
+
+.ContactList-active{
+    background-color: var(--color-primary-light) !important;
+    cursor: pointer;
+}

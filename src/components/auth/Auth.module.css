@@ -1,0 +1,80 @@
+.Auth{
+    width: 800px;
+    margin: 50px auto 0;
+    border: 1px solid var(--color-secondary-dark);
+    /*background-color:#ccc;*/
+    padding: 25px 35px;
+    border-radius: 5px;
+}
+.Auth form{
+    width: 100%;
+}
+
+.Auth h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Auth form input{
+    display: block;
+    margin: 0 auto 15px;
+    width: 100%;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 5px;
+}
+
+.Auth form input:focus{
+    outline-color: var(--color-primary-dark);
+}
+
+.Auth-alert{
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin: 1rem 0;
+    border: 1px solid #f5c6cb;
+    border-radius: .25rem;
+    color: #721c24;
+    background-color: #f8d7da;
+    font-size: 1.2rem;
+}
+
+.Auth form div{
+    display: flex;
+}
+
+.Auth-regbtn{
+    margin-right: 10px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background-color: var(--color-secondary-light);
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid var(--color-secondary);
+    flex-grow: 1;
+}
+
+.Auth-regbtn:hover{
+    background-color: var(--color-secondary-dark);
+    cursor: pointer;
+}
+
+.Auth-loginbtn{
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background-color: var(--color-primary-light);
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid var(--color-primary);
+}
+
+.Auth-loginbtn:hover{
+    background-color: var(--color-primary-dark);
+    cursor: pointer;
+}
